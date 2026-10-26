@@ -1,0 +1,53 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model training outputs and checkpoints
+runs/
+YOLO_Runs/
+wandb/
+
+# Dataset files (avoid uploading large datasets)
+datasets/
+dataset/
+*.zip
+*.rar
+
+# Python package build files
+build/
+dist/
+*.egg-info/
